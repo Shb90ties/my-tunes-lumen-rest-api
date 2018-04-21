@@ -14,5 +14,9 @@ class ExampleController extends Controller
         //
     }
 
+    public function something($request) {
+        return '>>>>>>DDD';
+    }
+
     //
 }

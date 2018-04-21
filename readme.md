@@ -1,8 +1,17 @@
-/vendor
-/.idea
-Homestead.json
-Homestead.yaml
-.env
+# My Tunes Laravel/Lumen PHP Restful API
+
+## Start
+    > install composer
+    > install xampp or apache
+    > install Laravel
+        composer global require "laravel"
+    > install Lumen
+        composer global require "laravel/lumen-installer"
+    > cp /.env.example .env
+    > php artisan key:generate
+    > php composer update
+    > php -S localhost:8000 -t public
+        ^ similar to php artisan serve
 
 
 # Lumen PHP Framework
